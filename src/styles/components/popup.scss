@@ -1,0 +1,98 @@
+@import '../base/variables';
+@import '../base/buttons';
+
+.popup {
+  &__icon {
+    vertical-align: top;
+
+    &--contact {
+      width: 100px;
+    }
+  }
+
+  &__outer-wrapper {
+    display: block;
+    margin: 15px;
+
+    &--contact {
+      text-align: center;
+    }
+
+    &--projects {
+      margin: 0;
+    }
+  }
+
+  &__inner-wrapper {
+    display: inline-block;
+    margin: 0 20px;
+
+    &--contact {
+      @media (min-width: $md) {
+        margin-left: 40px;
+      }
+    }
+  }
+
+  &__header {
+    position: relative;
+    display: block;
+    background-color: $navy-blue;
+    color: $white;
+    padding: 0 2px;
+    letter-spacing: 0.5px;
+  }
+
+  &__button {
+    @extend %button;
+    padding: 2px 8px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+
+  &__text {
+    line-height: 1.8rem;
+  }
+
+  &__link {
+    @extend %link-button;
+
+    &:nth-of-type(2) {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  &__projects-wrapper {
+    background-color: $white;
+    border: $border-standard;
+    padding: 10px 0;
+    margin-top: 2px;
+  }
+
+  &__project {
+    display: inline-block;
+    width: 105px;
+    margin: 0 10px 15px;
+    text-align: center;
+    vertical-align: top;
+
+    &:hover,
+    &:focus {
+      opacity: 0.4;
+    }
+  }
+
+  &__project-title {
+    margin-top: 5px;
+  }
+
+  &__project-icon-wrapper {
+    width: 80px;
+    margin: 0 auto;
+  }
+
+  &__project-icon {
+    width: 100%;
+  }
+}

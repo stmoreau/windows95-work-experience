@@ -1,0 +1,17 @@
+@import '../base/variables';
+
+.menu {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  background-color: $submarine-grey;
+  min-width: 180px;
+  border: $border-standard;
+
+  &--submenu {
+    left: 165px;
+    top: 0;
+    width: 160px;
+    height: 38px;
+  }
+}

@@ -1,0 +1,7 @@
+@import './variables';
+
+%block {
+  border: $border-standard;
+  padding: 0 6px;
+  line-height: 22px;
+}

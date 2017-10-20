@@ -1,0 +1,15 @@
+@import '../base/buttons';
+
+.closebutton {
+  @extend %button;
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  bottom: 3px;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 0.5;
+  width: 0;
+  height: 15px;
+  padding-right: 12px;
+}

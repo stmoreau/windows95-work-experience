@@ -1,0 +1,22 @@
+@import '../base/block';
+@import '../base/variables';
+
+.titlebar {
+  @extend %block;
+  margin: 0 2px;
+  width: 150px;
+  height: 25px;
+  border: $border-standard;
+  min-width: 76px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &__icon {
+    margin-top: -2px;
+  }
+
+  &__text {
+    vertical-align: top;
+  }
+}

@@ -1,0 +1,11 @@
+# Dependency directory
+node_modules
+
+# Bundle map
+build
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+.jshintrc

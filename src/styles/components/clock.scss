@@ -1,0 +1,13 @@
+@import '../base/block';
+
+.clock {
+  @extend %block;
+  margin-left: auto;
+  height: 25px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  border-top: inset 2px grey;
+  border-left: inset 2px grey;
+  border-bottom: inset 2px white;
+  border-right: inset 2px white;
+}
