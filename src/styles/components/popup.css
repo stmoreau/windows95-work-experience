@@ -1,7 +1,7 @@
 .popup__icon {
   vertical-align: top;
 }
-.popup__icon .popup__icon--contact {
+.popup__icon.popup__icon--contact {
   width: 100px;
 }
 .popup__outer-wrapper {
@@ -19,10 +19,14 @@
   display: inline-block;
   margin: 0 20px;
 }
-.popup__inner-wrapper .popup__inner-wrapper--contact {
+.popup__inner-wrapper.popup__inner-wrapper--contact {
   @media (min-width: 540px) {
     margin-left: 40px;
   }
+}
+.popup__link:nth-of-type(2) {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .popup__header {
   position: relative;

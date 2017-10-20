@@ -2,19 +2,6 @@
   top: 35px;
 }
 
-@media (min-width: 540px) {
-  .window {
-    top: 35px;
-    left: 35px;
-    width: 540px;
-    height: auto;
-    max-height: calc(100% - 30px);
-  }
-  .window--project {
-    min-width: 500px;
-  }
-}
-
 .window {
   position: absolute;
   background-color: #c0c7c8;
@@ -23,6 +10,23 @@
   border: 2px solid #000;
   overflow: hidden;
 }
+@media (min-width: 540px) {
+  .window {
+    top: 35px;
+    left: 35px;
+    width: 540px;
+    height: auto;
+    max-height: calc(100% - 30px);
+  }
+  .window:nth-child(1) {
+    top: 35px;
+    left: 35px;
+  }
+  .window--project {
+    min-width: 500px;
+  }
+}
+
 .window .window--popup {
   max-width: 450px;
 }
