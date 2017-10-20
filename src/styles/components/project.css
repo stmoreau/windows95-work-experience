@@ -1,0 +1,117 @@
+.project {
+  height: 100%;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 20px;
+}
+@media (min-width: 540px) {
+  .project {
+    height: calc(100% - 30px);
+    padding-bottom: 0;
+  }
+}
+
+.project .project__inner-wrapper {
+  display: block;
+  margin: 12px;
+  font-family: arial, sans-serif;
+}
+
+.project .project__image-wrapper {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 15px auto;
+}
+@media (min-width: 540px) {
+  .project .project__image-wrapper {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 0;
+    max-width: none;
+  }
+}
+.project .project__dates {
+  float: right;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 15px auto;
+  text-align: right;
+}
+@media (min-width: 540px) {
+  .project .project__dates {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 0;
+    max-width: none;
+  }
+}
+.project .project__image-inner-wrapper {
+  margin-bottom: 10px;
+}
+
+.project .project__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.project .project__image:last-child {
+  margin-bottom: 0;
+}
+
+.project .project__image--portrait {
+  display: inline-block;
+  width: calc(50% - 5px);
+  margin-bottom: 0;
+}
+.project .project__image--portrait:first-child {
+  margin-right: 10px;
+}
+.project .project__info-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+@media (min-width: 540px) {
+  .project .project__info-wrapper {
+    margin-top: 20px;
+  }
+}
+.project .project__info {
+  margin: 10px 0;
+}
+.project .project__info:first-child {
+  @media (min-width: 540px) {
+    margin-top: 0;
+  }
+}
+.project .project__info-title {
+  display: inline-block;
+  font-weight: bold;
+}
+.project .project__info-title--has-margin {
+  margin-bottom: 3px;
+}
+.project .project__info-item {
+  margin-bottom: 5px;
+}
+.project .project__info-item:first-child {
+  margin-bottom: 0;
+}
+.project .project__link {
+  border: 2px solid #000;
+  background-color: #c0c7c8;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 5px;
+  font-size: 1.4rem;
+}
+.project .project__link:hover,
+.project .project__link:focus,
+.project .project__link:active {
+  border: 2px solid #7a7a7a;
+}
+.project .project__link {
+  @media (min-width: 540px) {
+    margin-top: 20px;
+  }
+}

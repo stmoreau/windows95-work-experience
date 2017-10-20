@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/clock.scss';
+import '../styles/components/clock.css';
 
 class Clock extends React.Component {
   constructor(props) {
@@ -19,15 +19,15 @@ class Clock extends React.Component {
     if( hours < 0   ){ hours += 24; }
 
     // add leading zero, first convert hours to string
-    hours = hours + "";
-    if( hours.length == 1 ){ hours = "0" + hours; }
+    hours = String(hours);
+    if( hours.length === 1 ){ hours = "0" + hours; }
 
     // minutes are the same on every time zone
     let minutes = currentdate.getUTCMinutes();
 
     // add leading zero, first convert minutes to string
-    minutes = minutes + "";
-    if( minutes.length == 1 ){ minutes = "0" + minutes; }
+    minutes = String(minutes);
+    if( minutes.length === 1 ){ minutes = "0" + minutes; }
 
     this.setState({
       hours: hours,

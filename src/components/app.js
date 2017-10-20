@@ -7,7 +7,7 @@ import StartBar from './startbar';
 import Folder from './folder';
 import Menu from './menu';
 import Window from './window';
-import '../styles/components/app.scss';
+import '../styles/components/app.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -50,11 +50,7 @@ class App extends React.Component {
   // Close all projects except the selected one when reszing down to mobile
   closeExtraProjects() {
     const openProjects = this.props.projects.filter(project => project.isOpen === true);
-    openProjects.map(project => {
-      if (project.title !== this.state.selectedProject) {
-        this.props.actions.closeProject(project.title);
-      }
-    });
+    openProjects.map(project => project.title !== this.state.selectedProject ? this.props.actions.closeProject(project.title) : '');
   }
 
   handleMouseDown(windowTitle) {

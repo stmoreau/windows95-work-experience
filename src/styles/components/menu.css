@@ -1,0 +1,14 @@
+.menu {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  background-color: #c0c7c8;
+  min-width: 180px;
+  border: 2px solid #000;
+}
+.menu--submenu {
+  left: 165px;
+  top: 0;
+  width: 160px;
+  height: 38px;
+}

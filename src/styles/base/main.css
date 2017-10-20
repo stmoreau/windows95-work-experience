@@ -1,5 +1,3 @@
-@import './variables';
-
 * {
   box-sizing: border-box;
 }
@@ -12,7 +10,7 @@ html {
 
 body {
   height: 100%;
-  background-color: $aquamarine;
+  background-color: #5ea8a8;
   font-family: 'Overpass', sans-serif;
 }
 

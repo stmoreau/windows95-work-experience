@@ -7,7 +7,7 @@ import * as ProjectActions from '../actions';
 import Popup from './popup';
 import Project from './project';
 import WindowTitle from './windowtitle';
-import '../styles/components/window.scss';
+import '../styles/components/window.css';
 
 class Window extends React.Component {
   constructor(props) {
@@ -58,14 +58,14 @@ class Window extends React.Component {
 
     if (this.openWindow) {
       this.setAvailableSpace('resize');
-    } 
+    }
   }
 
   setAvailableSpace(eventType) {
     //set max width constraint to be windowwidth - left offset position of window
     const availableWidth = window.innerWidth - this.openWindow.getBoundingClientRect().left;
     const availableHeight = window.innerHeight - this.openWindow.getBoundingClientRect().top - 30;
-   
+
     this.setState({
       availableWidth: availableWidth,
       availableHeight: availableHeight
@@ -98,7 +98,7 @@ class Window extends React.Component {
     const dragHandlers = {onDrag: this.onDrag, onStart: this.onStart, onStop: this.onStop};
 
     return (
-      <Draggable onMouseDown={() => this.props.onMouseDown(this.props.item.title)} bounds=".app__inner-wrapper" handle='.handle' {...dragHandlers}>
+      <Draggable onMouseDown={() => this.props.onMouseDown(item.title)} bounds=".app__inner-wrapper" handle='.handle' {...dragHandlers}>
         {this.props.isProject ?
           this.renderResizable() :
           this.renderFixedSize()
@@ -153,4 +153,3 @@ export default connect(
   null,
   mapDispatchToProps
 )(Window);
-

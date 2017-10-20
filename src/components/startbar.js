@@ -1,7 +1,7 @@
 import React from 'react';
 import Clock from './clock';
 import TitleBar from './titlebar';
-import '../styles/components/startbar.scss';
+import '../styles/components/startbar.css';
 
 class StartBar extends React.Component {
   constructor(props) {

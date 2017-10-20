@@ -1,6 +1,6 @@
 import React from 'react';
 import CloseButton from './closebutton';
-import '../styles/components/windowtitle.scss';
+import '../styles/components/windowtitle.css';
 
 const WindowTitle = (props) => {
   return (

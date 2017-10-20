@@ -1,0 +1,15 @@
+.window-title {
+  position: relative;
+  display: block;
+}
+.window-title__heading {
+  display: block;
+  background-color: #000086;
+  color: #fff;
+  padding: 0 2px;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+  height: 20px;
+  border: 2px solid #000;
+  font-weight: 700;
+}

@@ -1,0 +1,50 @@
+.app {
+  height: 100%;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app__inner-wrapper {
+  width: 100%;
+  height: calc(100% - 30px);
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.app__inner-wrapper .app__info {
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.app__inner-wrapper .app__info .app__title {
+  font-size: 2em;
+}
+
+.app__inner-wrapper .app__info p,
+.app__inner-wrapper .app__info h3 {
+  margin-top: 2em;
+}
+
+.app__inner-wrapper .app__info .app_contribution {
+  margin-top: 2em;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.app__inner-wrapper .app__info ul,
+.app__inner-wrapper .app__info .app__specialties-items {
+  margin-top: 1em;
+}
+
+.app__inner-wrapper .app__folders {
+  position: absolute;
+  top: 0;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/folder.scss';
+import '../styles/components/folder.css';
 
 const Folder = (props) => {
   const { project } = props;

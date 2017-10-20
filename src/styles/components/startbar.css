@@ -1,0 +1,53 @@
+.startbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #c0c7c8;
+  font-size: 1.3rem;
+  height: 30px;
+  padding: 2px;
+  border-top: 2px solid #fff;
+  z-index: 10;
+}
+.startbar .startbar__button,
+.startbar .startbar__button:hover {
+  border: 2px solid #000;
+  background-color: #c0c7c8;
+  height: 25px;
+  padding: 0 2px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 14px;
+  border-top: ridge 2px white;
+  border-left: ridge 2px white;
+  border-bottom: ridge 2px black;
+  border-right: ridge 2px black;
+  min-width: 62px;
+}
+.startbar .startbar__button:hover,
+.startbar .startbar__button:focus,
+.startbar .startbar__button:active {
+  border: 2px solid #7a7a7a;
+}
+
+.startbar .startbar__button--active,
+.startbar .startbar__button--active:hover {
+  border-top: inset 2px black;
+  border-left: inset 2px black;
+  border-bottom: inset 2px white;
+  border-right: inset 2px white;
+}
+
+.startbar .startbar__button-icon {
+  margin: 3px 0;
+  vertical-align: bottom;
+}
+
+.startbar .startbar__button-text {
+  display: inline-block;
+  margin: 4px;
+  vertical-align: top;
+}

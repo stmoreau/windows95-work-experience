@@ -1,53 +1,37 @@
-@import '../base/variables';
+.window--popup {
+  top: 35px;
+}
 
-$total: 10;
-$topOffset: 35px;
-$leftOffset: 35px;
-
-@for $i from 1 through $total {
-  .window--popup:nth-child(#{$i}) {
-    top: $topOffset;
+@media (min-width: 540px) {
+  .window {
+    top: 35px;
+    left: 35px;
+    width: 540px;
+    height: auto;
+    max-height: calc(100% - 30px);
   }
-
-  .window:nth-child(#{$i}) {
-    @media (min-width: $md) {
-      top: $topOffset;
-      left: $leftOffset;
-    }
+  .window--project {
+    min-width: 500px;
   }
-  $topOffset: $topOffset + 25px;
-  $leftOffset: $leftOffset + 10px;
 }
 
 .window {
   position: absolute;
-  background-color: $submarine-grey;
+  background-color: #c0c7c8;
   padding: 2px;
   width: 100%;
-  border: $border-standard;
+  border: 2px solid #000;
   overflow: hidden;
-
-  &--popup {
-    max-width: 450px;
-  }
-
-  &--project {
-    top: 0;
-    left: 0;
-    height: calc(100% - 30px);
-  }
-
-  @media (min-width: $md) {
-    width: 540px;
-    height: auto;
-    max-height: calc(100% - 30px);
-
-    &--project {
-      min-width: 500px;
-    }
-  }
+}
+.window .window--popup {
+  max-width: 450px;
 }
 
+.window .window--project {
+  top: 0;
+  left: 0;
+  height: calc(100% - 30px);
+}
 .react-resizable-handle {
   position: absolute;
   width: 20px;

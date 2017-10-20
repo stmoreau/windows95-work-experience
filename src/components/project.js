@@ -2,8 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as ProjectActions from '../actions';
-import CloseButton from './closebutton';
-import '../styles/components/project.scss';
+import '../styles/components/project.css';
 
 class Project extends React.Component {
   constructor(props) {

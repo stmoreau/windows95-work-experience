@@ -1,7 +1,6 @@
-@import '../base/block';
-
 .clock {
-  @extend %block;
+  padding: 0 6px;
+  line-height: 22px;
   margin-left: auto;
   height: 25px;
   font-weight: 700;

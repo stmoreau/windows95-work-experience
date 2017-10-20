@@ -1,0 +1,18 @@
+.titlebar {
+  padding: 0 6px;
+  line-height: 22px;
+  margin: 0 2px;
+  width: 150px;
+  height: 25px;
+  border: 2px solid #000;
+  min-width: 76px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.titlebar__icon {
+  margin-top: -2px;
+}
+.titlebar__text {
+  vertical-align: top;
+}

@@ -1,7 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import CloseButton from './closebutton';
-import '../styles/components/popup.scss';
+import '../styles/components/popup.css';
 
 class Popup extends React.Component {
   constructor(props) {

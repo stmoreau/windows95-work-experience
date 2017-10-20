@@ -1,5 +1,4 @@
 import React from 'react';
-import icon from '../assets/os-icons/profile-pic.png';
 
 const appinfo = () => (
 <div className="app__info">
