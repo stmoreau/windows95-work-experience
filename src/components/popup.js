@@ -4,7 +4,7 @@ import '../styles/components/popup.css';
 class Popup extends React.Component {
   constructor(props) {
     super(props);
-
+ 
     this.renderContact = this.renderContact.bind(this);
     this.renderStandardPopup = this.renderStandardPopup.bind(this);
   }

@@ -6,13 +6,11 @@ const appinfo = () => (
   <h1 className="app__title">
     Stephane Moreau
   </h1>
-  <p> 
-    <ul>
-      <li>💻 Senior Web Developer (2011-present)</li>
-      <li>🤵🏼 Technology Consultant / Mentor (2017-present)</li>
-      <li>🎓 MSc Student in Development Management (2018-present)</li>
-    </ul>
-  </p>
+  <ul>
+    <li>💻 Senior Web Developer (2011-present)</li>
+    <li>🤵🏼 Technology Consultant / Mentor (2017-present)</li>
+    <li>🎓 MSc Student in Development Management (2018-present)</li>
+  </ul>
   <div className="app_contribution">What's my day-to day contribution?</div>
   <ul>
     <li>🎯 Excellent skills in project & product management using agile methodologies</li>

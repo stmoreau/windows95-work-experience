@@ -111,7 +111,7 @@ class Window extends React.Component {
     const { item, zIndex } = this.props;
 
     return (
-      <div style={{zIndex: zIndex}} className={'window' + (this.props.isProject ? ' window--project' : ' window--popup')} ref={(window) => { this.openWindow = window;}}>
+      <div style={{zIndex: zIndex}} className={'window' + (this.props.isProject ? ' window--project' : ' window--popup') + (item.isContact ? ' window--contact' : '')} ref={(window) => { this.openWindow = window;}}>
         <WindowTitle {...item} onClick={() => this.props.onCloseClick(item.title)} />
         {this.props.isProject ?
             <Project {...item} /> :

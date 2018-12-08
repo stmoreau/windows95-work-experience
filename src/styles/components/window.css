@@ -22,6 +22,10 @@
     top: 0;
     left: 120px;
   }
+  .window--contact{
+    right: 0 !important;
+    left: auto !important;
+  }
   .window--project {
     min-width: 500px;
   }

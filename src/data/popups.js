@@ -44,7 +44,7 @@ const popups = [
         url: 'mailto:stephane.moreau.personal@gmail?subject=hello Stephane'
       }
     ],
-    isOpen: false,
+    isOpen: true,
     isSelected: false,
     isContact: true
   }
