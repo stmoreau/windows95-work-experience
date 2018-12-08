@@ -19,12 +19,16 @@
     max-height: calc(100% - 30px);
   }
   .window:nth-child(1) {
-    top: 35px;
-    left: 35px;
+    top: 0;
+    left: 120px;
   }
   .window--project {
     min-width: 500px;
   }
+}
+
+.window{
+  top: 0;
 }
 
 .window .window--popup {

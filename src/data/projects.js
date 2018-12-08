@@ -1,25 +1,86 @@
 const projects = [
   {
+    title: 'IG',
+    image: 'ig/ig.jpg',
+    dates: 'Jul 2018 - Present',
+    jobTitle: 'Web Developer (Front End)',
+    type: 'IG is the world’s No.1 spread betting and CFD provider.',
+    description: [
+      'Mainly working on the core Marketing Websites of the company, I am:',
+      'BUILDING & MAINTAINING:',
+      '• All marketing websites built on AEM (Adobe Experience Manager)',
+      '• Internal apps/tools (Web Apps, Desktop Apps, Browser Extensions, AEM interfaces, etc.)',
+      'COMMUNICATING WITH:',
+      '• PMs (Project & Product Managers)',
+      '• Other dev teams (Devices teams, Middleware teams, etc.)',
+      '• QA (Quality Assurance)',
+      '• 3rd party agencies - working with React.js and other frameworks',
+      '✓ Following Scrumban which is an Agile management methodology describing hybrids of Scrum and Kanban. Scrumban provides the structure of Scrum with the flexibility and visualization of Kanban, making it a highly versatile approach to workflow management.'
+    ],
+    company_url: 'https://www.ig.com',
+    tech_stack: 'OO JavaScript, Web Components with Stenciljs, Typescript, LESS, HTML5, JAVA, Python, AWS Lambda, Electron, Docker, Handlebars, Mocha, Jasmine, Istanbul and Jest',
+    isOpen: true,
+    isSelected: false
+  },
+  {
+    title: 'Peerspective',
+    image: 'peerspective/peerspective.jpeg',
+    dates: 'Oct 2018 - Present',
+    jobTitle: 'Technology Consultant / Operations Manager',
+    type: 'Peerspective is a hiring platform with a twist; we use developers and designers to run our interviews.',
+    description: [
+      'Reporting to Peerspective\'s Directors my role consists but is not limited to:',
+      '• Developing, implementing, enforcing and evaluating procedures',
+      '• Designing and building innovative customer experiences',
+      '• Manage expectations with clients and internal resources',
+      '• Helping clients address business-wide change',
+      '• Coaching, mentoring, motivating, and supervising clients'
+    ],
+    company_url: 'https://www.peerspective.io.com/',
+    tech_stack: 'N/A',
+    isOpen: false,
+    isSelected: false
+  },
+  {
     title: 'Voxygen',
-    image_urls: ['voxygen/voxygen.png'],
-    dates: 'Jul 2017 - Present',
+    image: 'voxygen/voxygen.png',
+    dates: 'Jul 2017 - Jul 2018',
     jobTitle: 'Web Developer',
-    type: 'Voxygen delivers compliance and collaboration products to Mobile Operators',
-    description: ['My role consists of designing, developing, documenting, deploying, testing Web Applications.'],
+    type: 'Voxygen designs, develops and supports products that deliver innovation to mobile and fixed line operators.',
+    description: [
+      'As a Web Developer, reporting directly to the CTO (Chief Technology Officer), I:',
+      '• formed Voxygen\'s Deep Learning Analytics platform from scratch',
+      '• lead the web development for it',
+      '• assisted in interview processes having created React technical assessments, JavaScript, CSS and general web development knowledge questions for open web development positions',
+      'Voxygen\'s Deep Learning Analytics platform is able to:',
+      '✓ provide intelligent voice and text analysis',
+      '✓ perform speech to text transcription',
+      '✓ interpret sentiment and tone of voice',
+      'As a Project Manager, I reported to and worked closely with the CPO (Chief Product Officer). Sample projects include but are not limited to:',
+      '• Launch brand new marketing website',
+      '• Re-design brand (logo, colour palette, business cards etc.)',
+      '• Continuous study of implemented analytics and decision making upon them'
+    ],
     company_url: 'https://www.voxygen.com/',
-    tech_stack: 'ES6, ReactJS, Redux, Storybook, Jest, Cypress, Webpack, Sketchapp, Invision',
+    tech_stack: 'ES6, Reactjs, Redux, Flask, NodeJs, ExpressJs, webpack, LESS, Storybook, Jest, Cypress, Sketchapp, Invision',
     isOpen: false,
     isSelected: false
   },
   {
     title: 'Nexmo, the Vonage API Platform',
-    image_urls: ['nexmo/nexmo.png'],
+    image: 'nexmo/nexmo.png',
     dates: 'Mar 2016 - Jul 2017',
     jobTitle: 'Associate Web Developer (Front End)',
     type:
       'Nexmo, the Vonage API Platform, provides tools for voice, messaging and phone verification, allowing developers to embed programmable communications into mobile apps, websites and business systems',
     description: [
-      'Developed cross-browser and responsive solutions, implemented Google Analytics, Kissmetrics and segment.io.'
+      'My role consisted of:',
+      '- Working on React.js, ES6, Webpack, Babel',
+      '- Implementing Google Analytics, Kissmetrics and segment.io to get better feedback on our changes',
+      '- Converting CSS to SCSS',
+      '- Working on Java and JSP',
+      '- Developing cross-browser and responsive solutions',
+      '- Creating responsive HTML email templates',
     ],
     company_url: 'https://www.nexmo.com/',
     tech_stack: 'ES6, ReactJS, Webpack, Babel, SCSS, Java, JSP, JQuery, html-email',
@@ -27,66 +88,34 @@ const projects = [
     isSelected: false
   },
   {
-    title: 'Shading Blue',
-    image_urls: ['shading/shading.png'],
-    dates: 'Oct 2016 - Jan 2017',
-    jobTitle: 'Web Developer (Full Stack)',
-    type: 'Real Estate',
-    description: ['After multiple meetings with the BoD I designed and developed the official webpage.'],
-    company_url: 'http://shadingblue.com/',
-    tech_stack: 'Sketchapp, Invision, Wordpress, CSS, Javascript, PHP',
-    isOpen: false,
-    isSelected: false
-  },
-  {
-    title: 'Actingworks',
-    image_urls: ['acting/acting.png'],
-    dates: 'Feb 2016 - Jul 2016',
-    jobTitle: 'Web Developer (Full Stack) / Volunteer',
-    type: 'Teaching',
-    description: ['Promoted the corporate image and built the website to reach top-search results by designing'],
-    company_url: 'http://actingworks.co.uk/',
-    tech_stack: 'Sketchapp, Invision, Wordpress, CSS, Javascript, PHP',
-    isOpen: false,
-    isSelected: false
-  },
-  {
     title: 'Freelancer',
-    image_urls: ['freelance/freelance.png'],
-    dates: 'Sep 2011 - Mar 2016',
+    image: 'freelance/freelance.png',
+    dates: 'Sep 2011 - Jan 2017',
     jobTitle: 'Web Developer (Full Stack)',
     type: 'Freelance',
     description: [
-      'Reached high websites traffic through well-designed and high-quality services, for either individuals and/or corporations (e.g. bubblesandavocados.gr, inbliss.gr, 2gymanli.gr, etc.)'
+      'Designed and built marketing websites, web and mobile applications for either individuals and/or corporations',
+      'Held weekly meetings with the Board of Directors and Senior Management teams to showcase my progress, get feedback and present new ideas',
+      'Provided cost-effective website hosting solutions'
     ],
     company_url: '',
-    tech_stack: 'Sketchapp, Invision, Wordpress, CSS, Javascript, PHP',
-    isOpen: false,
-    isSelected: false
-  },
-  {
-    title: 'Sarantis Nikolaos LP',
-    image_urls: ['nikolaos/nikolaos.png'],
-    dates: 'Sep 2013 - Jan 2016',
-    jobTitle: 'Web Developer (Front End)',
-    type: 'Real Estate',
-    description: ['Supported corporate websites and acted as contact person for clients’ queries'],
-    company_url: 'http://www.realestatecorner.gr',
-    tech_stack: 'Ruby on Rails, Javascript, Wordpress, CSS, PHP',
+    tech_stack: 'Sketchapp, Invision, Wordpress, CSS3, Javascript, ES6, PHP, HTML5',
     isOpen: false,
     isSelected: false
   },
   {
     title: 'Greatives',
-    image_urls: ['greatives/greatives.png'],
+    image: 'greatives/greatives.png',
     dates: 'Aug 2012 - Apr 2014',
     jobTitle: 'Web Developer (Front End)',
     type: 'Wordpress theme',
     description: [
-      'Participated in the design of the ThemeForest "Reload – Responsive Multi-Purpose" theme (approved and published on themeforest)'
+      'Participated in the design of the ThemeForest "Reload – Responsive Multi-Purpose" theme (approved and published on themeforest)',
+      'Acted as contact person (24/7) towards the theme\'s potential buyers, explaining its purpose/details and replying to all support section\'s queries, after release date',
+      '✓ Award received (badged) as "Elite Author", on theme "Reload – Responsive Multi-Purpose" being credited 4.9/5, with more than 1000 purchases'
     ],
     company_url: 'https://themeforest.net/item/reload-responsive-multipurpose-theme/7302909?s_rank=4',
-    tech_stack: 'HTML, Javascript, Wordpress, CSS, PHP',
+    tech_stack: 'HTML5, Javascript, Wordpress, CSS3, PHP',
     isOpen: false,
     isSelected: false
   }

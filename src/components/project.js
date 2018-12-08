@@ -5,39 +5,6 @@ import * as ProjectActions from '../actions';
 import '../styles/components/project.css';
 
 class Project extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.renderLandscapeLayout = this.renderLandscapeLayout.bind(this);
-    this.renderPortraitLayout = this.renderPortraitLayout.bind(this);
-  }
-
-  renderLandscapeLayout() {
-    return this.props.image_urls.map((url, index) => {
-      return <img key={index} className="project__image" alt={this.props.title} src={require(`../assets/${url}`)} />;
-    });
-  }
-
-  renderPortraitLayout() {
-    return (
-      <div>
-        <div className="project__image-inner-wrapper">
-          <img
-            className="project__image project__image--portrait"
-            alt={this.props.title}
-            src={require(`../assets/${this.props.image_urls[0]}`)}
-          />
-          <img
-            className="project__image project__image--portrait"
-            alt={this.props.title}
-            src={require(`../assets/${this.props.image_urls[1]}`)}
-          />
-        </div>
-        <img className="project__image" alt={this.props.title} src={require(`../assets/${this.props.image_urls[2]}`)} />
-      </div>
-    );
-  }
-
   render() {
     const item = this.props;
 
@@ -45,7 +12,7 @@ class Project extends React.Component {
       <div className="project">
         <div className="project__inner-wrapper">
           <div className="project__image-wrapper">
-            {item.hasPortraitImages ? this.renderPortraitLayout() : this.renderLandscapeLayout()}
+            <img className="project__image" alt={this.props.title} src={require(`../assets/${this.props.image}`)} />
           </div>
           <div className="project__dates">{item.dates}</div>
           <div className="project__info-wrapper">
@@ -70,7 +37,7 @@ class Project extends React.Component {
             </p>
             {item.company_url ? (
               <a className="project__link" href={item.company_url} target="_blank">
-                Company site
+                Company website
               </a>
             ) : (
               ''
