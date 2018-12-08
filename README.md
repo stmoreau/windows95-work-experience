@@ -3,7 +3,7 @@
 ![1-diwz_x9p3c86sfo-gydi5a](https://user-images.githubusercontent.com/15115885/32793394-b49a424a-c95d-11e7-9d0d-2d98b763884c.gif)
 
 
-[**Demo: click here**](https://stmoreau.github.io/windows95-portfolio/)
+[**Demo: click here**](https://stmoreau.github.io/windows95-work-experience/)
 
 This is a simple web application to present my work experience in a kind of humorous way
 Build using React and Redux.
@@ -18,8 +18,8 @@ can be found under `src/`.
 To install for development, clone the repository and install the dependencies with `yarn`.
 
 ```bash
-$ git clone git@github.com:stmoreau/windows95-portfolio.git
-$ cd windows95-portfolio
+$ git clone git@github.com:stmoreau/windows95-work-experience.git
+$ cd windows95-work-experience
 $ yarn 
 ```
 
@@ -27,6 +27,6 @@ $ yarn
 
 To run development application and Webpack server:
 
-```
+```bash
 $ yarn start
 ```

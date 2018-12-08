@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://stmoreau.github.io/windows95-portfolio",
+  "homepage": "https://stmoreau.github.io/windows95-work-experience",
   "dependencies": {
     "core-js": "^2.4.1",
     "react": "^15.1.0",
