@@ -33,6 +33,10 @@
   margin-top: 2em;
 }
 
+.app__inner-wrapper .app__info ul li {
+  line-height: 1.5;
+}
+
 .app__inner-wrapper .app__info .app_contribution {
   margin-top: 2em;
   text-decoration: underline;
