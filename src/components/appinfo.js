@@ -6,7 +6,12 @@ const appinfo = () => (
       <div>
         <h1 className="app__title">Stephane Moreau</h1>
         <ul>
-          <li>👨‍💻 Senior Web Developer (2011-present)</li>
+          <li>
+            👨‍💻 Engineering Manager II at{" "}
+            <a href="https://www.mimecast.com/" target="_blank">
+              Mimecast
+            </a>
+          </li>
           <li>🎓 MSc Student in Development Management (2018-present)</li>
         </ul>
         <div className="app_contribution">

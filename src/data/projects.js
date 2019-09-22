@@ -1,8 +1,23 @@
 const projects = [
   {
+    title: "Mimecast",
+    image: "mimecast/mimecast.png",
+    dates: "Sep 2019 - Present",
+    jobTitle: "Engineering Manager II",
+    type:
+      "Comprehensive cyber security, resilience and compliance platform to protect email, data, users and web.",
+    description: [
+      "Managing a team of 4 engineers and developing the platform."
+    ],
+    company_url: "https://www.mimecast.com/",
+    tech_stack: "Angular, OO JavaScript, Typescript, puppet, LESS, HTML5, JAVA",
+    isOpen: true,
+    isSelected: true
+  },
+  {
     title: "IG",
     image: "ig/ig.jpg",
-    dates: "Jul 2018 - Present",
+    dates: "Jul 2018 - Sep 2019",
     jobTitle: "Senior Web Developer (Front End)",
     type: "IG is the world’s No.1 spread betting and CFD provider.",
     description: [
@@ -22,7 +37,7 @@ const projects = [
     company_url: "https://www.ig.com",
     tech_stack:
       "OO JavaScript, Web Components with Stenciljs, Typescript, LESS, HTML5, JAVA, Python, AWS Lambda, Electron, Docker, Handlebars, Mocha, Jasmine, Istanbul and Jest",
-    isOpen: true,
+    isOpen: false,
     isSelected: false
   },
   {
