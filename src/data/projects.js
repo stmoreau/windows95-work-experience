@@ -3,17 +3,16 @@ const projects = [
     title: 'Mimecast',
     image: 'mimecast/mimecast.png',
     dates: 'Sep 2019 - Present',
-    jobTitle: 'Engineering Manager II',
-    type:
-      'Comprehensive cyber security, resilience and compliance platform to protect email, data, users and web.',
+    jobTitle: 'Engineering Manager II & Tech Lead',
+    type: 'Most loved, large Cap Cyber Resilience Provider.',
     description: [
-      'Managing talented Software Engineers and QA Automation Engineers working on a range of different products.',
-      'Our goal as engineering managers at Mimecast is to:',
+      'Managing talented Software Engineers and QA Automation Engineers working on a range of different products.🚀',
+      'My goal as an Engineering Manager & Tech Lead at Mimecast is to:',
       '✓ support and help engineers grow into world-class engineers and technical leaders, as well as',
-      '✓ contribute technically and lead the development of our product portfolio'
+      '✓ lead the development of our product portfolio by providing technical guidance to our teams and contributing hands-on full-stack'
     ],
     company_url: 'https://www.mimecast.com/',
-    tech_stack: 'Angular, OO JavaScript, Typescript, puppet, LESS, HTML5, JAVA',
+    tech_stack: 'Angular, OO JavaScript, Typescript, puppet, LESS, HTML5, JAVA, nginx',
     isOpen: true,
     isSelected: true
   },
