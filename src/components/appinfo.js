@@ -1,38 +1,44 @@
-import React from 'react';
+import React from "react";
 
 const appinfo = () => (
-  <div className='app__info'>
+  <div className="app__info">
     {window.innerWidth > 540 ? (
       <div>
-        <h1 className='app__title'>Stephane Moreau</h1>
+        <h1 className="app__title">Stephane Moreau</h1>
         <ul>
           <li>
-            👨‍💻 Engineering Manager II & Tech Lead at{' '}
-            <a href='https://www.mimecast.com/' target='_blank'>
+            👨‍💻 Engineering Manager II at{" "}
+            <a href="https://www.mimecast.com/" target="_blank">
               Mimecast
             </a>
           </li>
           <li>🎓 MSc Student in Development Management (2018-present)</li>
         </ul>
-        <div className='app_contribution'>What's my day-to day contribution?</div>
+        <div className="app_contribution">
+          What's my day-to day contribution?
+        </div>
         <ul>
-          <li>🎯 Excellent skills in project & product management using agile methodologies</li>
+          <li>
+            🎯 Excellent skills in project & product management using agile
+            methodologies
+          </li>
           <li>🎯 Passion about Consulting and Mentoring</li>
           <li>🎯 Expert knowledge of HTML5/CSS3</li>
           <li>🎯 jQuery, JavaScript, AJAX, JSON senior experience</li>
           <li>🎯 ReactJS, Redux, ES6, Webpack and Babel senior experience</li>
           <li>🎯 Up to date with latest UX/UI practices using Sketchapp</li>
           <li>
-            🎯 Experience developing server-side processes and automation scripts using Java,
-            NodeJs, Python
+            🎯 Experience developing server-side processes and automation
+            scripts using Java, NodeJs, Python
           </li>
           <li>
-            🎯 Wide experience using a range of CMS like Wordpress, Joomla, Adobe Experience Manager
+            🎯 Wide experience using a range of CMS like Wordpress, Joomla,
+            Adobe Experience Manager
           </li>
         </ul>
       </div>
     ) : (
-      ''
+      ""
     )}
   </div>
 );
