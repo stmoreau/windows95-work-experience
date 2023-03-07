@@ -7,12 +7,11 @@ const appinfo = () => (
         <h1 className="app__title">Stephane Moreau</h1>
         <ul>
           <li>
-            👨‍💻 Engineering Manager II at{" "}
-            <a href="https://www.mimecast.com/" target="_blank">
-              Mimecast
+            👨‍💻 Senior Engineering Manager (SDK) at{" "}
+            <a href="https://www.ably.com/" target="_blank">
+              Ably
             </a>
           </li>
-          <li>🎓 MSc Student in Development Management (2018-present)</li>
         </ul>
         <div className="app_contribution">
           What's my day-to day contribution?
