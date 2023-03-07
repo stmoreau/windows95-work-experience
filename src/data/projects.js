@@ -30,8 +30,8 @@ const projects = [
     company_url: "https://www.mimecast.com/",
     tech_stack:
       "Angular, OO JavaScript, Typescript, puppet, LESS, HTML5, JAVA, nginx",
-    isOpen: true,
-    isSelected: true,
+    isOpen: false,
+    isSelected: false,
   },
   {
     title: "IG",
