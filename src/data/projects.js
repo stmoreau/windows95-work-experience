@@ -1,8 +1,24 @@
 const projects = [
   {
+    title: "Ably",
+    image: "ably/ably.png",
+    dates: "Jan 2022 - Present",
+    jobTitle: "Senior Engineering Manager (SDK)",
+    type: "Realtime experience infrastructure that just works at any scale.",
+    description: [
+      "Managing talented Software Engineers that work on our open-source client libraries 🚀",
+      "My goal as an Engineering Manager at Ably is to:",
+      "✓ support and help engineers grow into world-class engineers and technical leaders",
+    ],
+    company_url: "https://www.ably.com/",
+    tech_stack: "All major languages that our customers love to use",
+    isOpen: true,
+    isSelected: true,
+  },
+  {
     title: "Mimecast",
     image: "mimecast/mimecast.png",
-    dates: "Sep 2019 - Present",
+    dates: "Sep 2019 - Jan 2022",
     jobTitle: "Engineering Manager II",
     type: "Most loved, large Cap Cyber Resilience Provider.",
     description: [
@@ -48,8 +64,7 @@ const projects = [
     image: "peerspective/peerspective.jpeg",
     dates: "Oct 2018 - Present",
     jobTitle: "Technology Consultant / Operations Manager",
-    type:
-      "Peerspective is a hiring platform with a twist; we use developers and designers to run our interviews.",
+    type: "Peerspective is a hiring platform with a twist; we use developers and designers to run our interviews.",
     description: [
       "Reporting to Peerspective's Directors my role consists but is not limited to:",
       "• Developing, implementing, enforcing and evaluating procedures",
@@ -68,8 +83,7 @@ const projects = [
     image: "voxygen/voxygen.png",
     dates: "Jul 2017 - Jul 2018",
     jobTitle: "Web Developer",
-    type:
-      "Voxygen designs, develops and supports products that deliver innovation to mobile and fixed line operators.",
+    type: "Voxygen designs, develops and supports products that deliver innovation to mobile and fixed line operators.",
     description: [
       "As a Web Developer, reporting directly to the CTO (Chief Technology Officer), I:",
       "• formed Voxygen's Deep Learning Analytics platform from scratch",
@@ -95,8 +109,7 @@ const projects = [
     image: "nexmo/nexmo.png",
     dates: "Mar 2016 - Jul 2017",
     jobTitle: "Associate Web Developer (Front End)",
-    type:
-      "Nexmo, the Vonage API Platform, provides tools for voice, messaging and phone verification, allowing developers to embed programmable communications into mobile apps, websites and business systems",
+    type: "Nexmo, the Vonage API Platform, provides tools for voice, messaging and phone verification, allowing developers to embed programmable communications into mobile apps, websites and business systems",
     description: [
       "My role consisted of:",
       "- Working on React.js, ES6, Webpack, Babel",
